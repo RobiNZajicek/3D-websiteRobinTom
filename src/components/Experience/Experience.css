@@ -1,0 +1,24 @@
+.gradient-bg::before {
+    background: linear-gradient(to right, #a4c7fe, #06B6D4);
+  }
+  .highlight {
+    position: relative;
+    background: linear-gradient(to right, #3B82F6, #06B6D4);
+    border-radius: var(--mantine-radius-sm);
+    padding: 2px  7px;
+    color: white;
+
+  }
+  .blurosOs{
+    
+    height: 300px;
+    width: 300px;
+    background-color: #139ce7;
+    position:absolute;
+    border-radius: 50%;
+    filter: blur(302px);
+    top: 27%;
+    left: 1%;
+    z-index: 1;
+
+}
