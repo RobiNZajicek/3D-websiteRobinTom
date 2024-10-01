@@ -3,10 +3,7 @@
    width: 100vw;
     padding: 1rem 15.5%;
 
-    @media (max-width: 1400px) {
-      padding: 1rem 10%;
-     
-    }
+    
 }
 .home-container{
     display: flex;
@@ -43,6 +40,8 @@
 }
 .It-img{
     width: 500px;
+    margin-right: -8rem;
+
 }
 
 .ics{
@@ -91,6 +90,8 @@
     
     width: 1.7rem;
     height: 1.7rem;
+
+ 
 }
 .techs {
     margin-left: 10px;
@@ -99,16 +100,44 @@
     flex-wrap: wrap;
     gap: 22px; /* Adjust as needed */
   }
+  .icon{
+    position: absolute;
+    width: 50px;
+
+    backdrop-filter: (2px 2px) #139ce7;
+   
+  }
+  .cloud{
+    width: 120px;
+    margin-right: -28px;
+    margin-bottom: -10px;
+  } 
+  .two{
+    right: 45%;
+  }
+  .three{
+    right: 40%;
+    top: 40%;
+  }
+  .one{
+    top:60%;
+    width: 100px;
+    right: 5%;
+
+  }
+  .four{
+    right: 3%;
+  }
+  .five{
+    right: 12%;
+    top: 25%;
+  }
   @media (max-width: 1650px) {
     .home{
         height: 70vh;
         
         padding: 1rem 15.5%;
     
-        @media (max-width: 1400px) {
-          padding: 1rem 10%;
-         
-        }
     }
     .home-container{
         display: flex;
@@ -196,6 +225,22 @@
       }
 
     }
+    @media (max-width: 1400px) {
+        .home{
+            height: 70vh;
+           width: 100vw;
+            padding: 1rem 15.5%;
+        
+            
+        }
+        .home-par{
+            color: white ;
+            font-weight: 600;
+            width: 75%;
+            font-size: 15px;
+        }
+    }
+
     @media (max-width: 1260px) {
         .home{
             height: 70vh;

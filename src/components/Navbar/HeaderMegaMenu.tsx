@@ -17,6 +17,7 @@ import {
     rem,
     useMantineTheme,
   } from '@mantine/core';
+  import {Link} from 'react-scroll';
   import logo from '../../assets/logo.png'
   import { useDisclosure } from '@mantine/hooks';
   import {
@@ -29,39 +30,34 @@ import {
     IconChevronDown,
   } from '@tabler/icons-react';
   import classes from './HeaderMegaMenu.module.css';
-import { Link, NavLink } from 'react-router-dom';
+import {  NavLink } from 'react-router-dom';
   
   const mockdata = [
     {
+      id:"1",
       icon: IconCode,
       title: 'Introduction',
       description: 'This Pokémon’s cry is very loud and distracting',
     },
     {
+      id:"2",
       icon: IconCoin,
       title: 'How to use PrintSpace',
       description: 'The fluid of Smeargle’s tail secretions changes',
     },
     {
+      id:"3",
       icon: IconBook,
       title: 'Rules of 3D printing',
       description: 'Yanma is capable of seeing 360 degrees without',
     },
     {
+      id:"4",
       icon: IconFingerprint,
       title: 'Questions',
       description: 'The shell’s rounded shape and the grooves on its.',
     },
-    {
-      icon: IconChartPie3,
-      title: 'Analytics',
-      description: 'This Pokémon uses its flying ability to quickly chase',
-    },
-    {
-      icon: IconNotification,
-      title: 'Notifications',
-      description: 'Combusken battles with the intensely hot flames it spews',
-    },
+
   ];
   
   export function HeaderMegaMenu() {
@@ -73,15 +69,17 @@ import { Link, NavLink } from 'react-router-dom';
       <UnstyledButton className={classes.subLink} key={item.title}>
         <Group wrap="nowrap" align="flex-start">
           <ThemeIcon size={34} variant="default" radius="md">
-            <item.icon style={{ width: rem(22), height: rem(22) }} color={theme.colors.blue[6]} />
+            <item.icon style={{ width: rem(22), height: rem(22) }} color="#139ce7" />
           </ThemeIcon>
           <div>
-            <Text size="sm" fw={500}>
+            <Link to={item.id} spy={true} smooth={true} offset={-70} duration={500}>
+            <Text className='text-black ' size="sm" fw={500}>
               {item.title}
             </Text>
             <Text size="xs" c="dimmed">
               {item.description}
             </Text>
+            </Link>
           </div>
         </Group>
       </UnstyledButton>
@@ -120,7 +118,7 @@ import { Link, NavLink } from 'react-router-dom';
                   <Divider my="sm" />
   
                   <SimpleGrid cols={2} spacing={0}>
-                    {links}
+                   {links}   
                   </SimpleGrid>
   
                   <div className={classes.dropdownFooter}>

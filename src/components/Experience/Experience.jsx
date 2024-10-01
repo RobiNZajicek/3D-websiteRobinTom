@@ -59,10 +59,10 @@ const ExperienceCard = ({ experience }) => {
 
 const Experience = () => {
   return (
-    <section className='works flex items-center justify-center flex-col'>
+    <section id='2' className='works flex items-center justify-center flex-col'>
       <motion.div className='works flex items-center justify-center flex-col' variants={textVariant()} >
         <p className={`${styles.sectionSubText} text-center text-blue-300`}>
-          jak zacit pouzivat 3D tisk
+          How to start using
         </p>
         <h2 className={`${styles.sectionHeadText} text-center `}>
           PrintSpace

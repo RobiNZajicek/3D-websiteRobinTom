@@ -71,7 +71,7 @@ export function FeaturesTitle() {
 
 
   return (
-    <div className='why-us' style={{ width: '100%', marginTop: '3rem', paddingTop: '2rem', paddingRight: '2rem', backgroundImage: 'url(https://cdn.scopicsoftware.com/wp-content/uploads/2023/05/section-3-bckground-3.png)', display: 'flex', alignItems: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
+    <div id='3' className='why-us' style={{ width: '100%', marginTop: '3rem', paddingTop: '2rem', paddingRight: '2rem', backgroundImage: 'url(https://cdn.scopicsoftware.com/wp-content/uploads/2023/05/section-3-bckground-3.png)', display: 'flex', alignItems: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
       <motion.div id="your-element-id" initial={{ opacity: 0 }}
         animate={isVisible ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
         transition={{ duration: 2.5, type: 'spring', delay: 0.2 }} style={{ display: "flex", justifyContent: "center", flexDirection: 'row', alignItems: "center" }} className={classes.wrapper}>
@@ -83,7 +83,7 @@ export function FeaturesTitle() {
             </Title>
             <Text className={classes.paros} c="dimmed">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit facilis illum, recusandae repellat vitae, magni architecto possimus itaque ut velit cumque aut accusamus dolorum aspernatur corporis animi dolores eum quae.
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. A vel dolorem consequuntur sed maiores porro, numquam molestias magnam molestiae? Voluptatibus quibusdam aspernatur ipsam amet debitis reiciendis non illum, quo ipsum.
+              
             </Text>
             <button type='submit' className='bg-gradient-to-r to-cyan-500 mt-4 from-blue-500 rounded-md w-32 h-12 font-bold text-white max-xl:w-24 max-xl:h-10'>Submit</button>
           </Grid.Col>

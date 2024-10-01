@@ -6,7 +6,7 @@ import faq from '../../assets/faq.json';
 
 export function FaqWithImage() {
   return (
-    <div className={classes.wrapper}>
+    <div id='4' className={classes.wrapper}>
       <Container className='flex ' size="lg">
         <Grid id="faq-grid" gutter={50}>
           <div className='flex flex-row gap-40'>

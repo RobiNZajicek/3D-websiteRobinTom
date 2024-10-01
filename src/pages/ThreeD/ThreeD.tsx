@@ -3,7 +3,7 @@ import {HeaderMegaMenuTwo}  from '../ThreeD/HeaderMegaMenuTwo';
 import './ThreeD.css'
 export default function ThreeD() {
   return (
-    <div>
+    <div className='Three'>
         <HeaderMegaMenuTwo/>
         
 

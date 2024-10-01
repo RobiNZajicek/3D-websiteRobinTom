@@ -23,7 +23,7 @@
     color: light-dark(var(--mantine-color-gray-7), var(--mantine-color-dark-1));
   }
   .faq{
-    height: 500px;
+    height: 110%;
     width: 500px;
     margin-left: -6rem;
   }
