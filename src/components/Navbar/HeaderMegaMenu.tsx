@@ -94,7 +94,7 @@ import {  NavLink } from 'react-router-dom';
             <Group h="100%" gap={0} visibleFrom="sm">
             <HoverCard width={600} position="bottom" radius="md" shadow="md" withinPortal>
                 <HoverCard.Target>
-                  <a href="#" className={classes.link}>
+                  <a href="/" className={classes.link}>
                     <Center inline>
                       <Box component="span" mr={5}>
                         Home
@@ -138,7 +138,7 @@ import {  NavLink } from 'react-router-dom';
               </HoverCard>
               
               <NavLink className={classes.link} to="3D">3D print</NavLink>
-              <NavLink className={classes.link} to="more">More</NavLink>
+              <NavLink className={classes.link} to="View">View 3D</NavLink>
             </Group>
   
             <Group visibleFrom="sm">

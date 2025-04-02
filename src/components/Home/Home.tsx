@@ -4,12 +4,14 @@ import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import DD from '../../assets/DD.json';
 import Lottie from 'lottie-react';
-import D from '../../assets/logo3D-removebg-preview.png'
-import D2 from '../../assets/cinema-4d-logo-3-removebg-preview.png'
-import D3 from '../../assets/logo3D2-removebg-preview.png'
-import D4 from '../../assets/logo3D4-removebg-preview.png'
-import D5 from '../../assets/ho5513hbe6-houdini-logo-houdini-3d-learning-path-pluralsight-removebg-preview.png'
-import cloud from '../../assets/cloud.json'
+import { FaGithub } from "react-icons/fa";
+// import D from '../../assets/logo3D-removebg-preview.png'
+// import D2 from '../../assets/cinema-4d-logo-3-removebg-preview.png'
+// import D3 from '../../assets/logo3D2-removebg-preview.png'
+// import D4 from '../../assets/logo3D4-removebg-preview.png'
+// import D5 from '../../assets/ho5513hbe6-houdini-logo-houdini-3d-learning-path-pluralsight-removebg-preview.png'
+// import cloud from '../../assets/cloud.json'
+
 import {
   Button,
  
@@ -76,34 +78,12 @@ const Home = () => {
             </div>
           </div>
          
-           
-          
-            
         </div>
         <div className="items-start justify-center home-container-right">
           <Lottie className="It-img" animationData={DD} />
           <div id='' className='bluros'></div>
-          <a className='w-16 cursor-pointer ' href="https://github.com/RobiNZajicek" target="_blank" >
-          {/* <div className='cloud-div'>
-          <Lottie  className='icon two cloud z-50'animationData={cloud}/>
-            <img className='icon two' src={D} alt="logo-3D" />
-            </div>
-            <div className='cloud-div'>
-            <Lottie  className='icon three cloud z-50'animationData={cloud}/>
-            <img className='icon three ' src={D2} alt="logo-3D" />
-            </div>
-            <div className='cloud-div'>
-            <Lottie  className='icon four cloud z-50'animationData={cloud}/>
-            <img className='icon four ' src={D3} alt="logo-3D" />
-            </div>
-            <div className='cloud-div'>
-            <Lottie  className='icon five cloud z-50'animationData={cloud}/>
-            <img className='icon five ' src={D4} alt="logo-3D" />
-            </div>
-            <div className='cloud-div'>
-            <Lottie  className='icon one cloud z-50'animationData={cloud}/> 
-            <img className='icon one' src={D5} alt="logo-3D" />
-            </div> */}
+          <a className='w-16 cursor-pointer ' href="https://github.com/RobiNZajicek/3D-websiteRobinTom  " target="_blank" >
+              <FaGithub id='icom' className='w-12 h-12 icom' />
             </a>
         </div>
         <div>
