@@ -96,7 +96,7 @@ import {  NavLink } from 'react-router-dom';
                 <HoverCard.Target>
                   <a href="/" className={classes.link}>
                     <Center inline>
-                      <Box component="span" mr={5}>
+                      <Box className='text-black' component="span" mr={5}>
                         Home
                       </Box>
                       <IconChevronDown
@@ -110,7 +110,7 @@ import {  NavLink } from 'react-router-dom';
                 <HoverCard.Dropdown style={{ overflow: 'hidden' }}>
                   <Group justify="space-between" px="md">
                     <Text fw={500}>Features</Text>
-                    <Anchor href="#" fz="xs">
+                    <Anchor className='text-black' href="#" fz="xs">
                       3D Print
                     </Anchor>
                   </Group>
@@ -124,7 +124,7 @@ import {  NavLink } from 'react-router-dom';
                   <div className={classes.dropdownFooter}>
                     <Group justify="space-between">
                       <div>
-                        <Text fw={500} fz="sm">
+                        <Text  fw={500} fz="sm">
                           Get started
                         </Text>
                         <Text size="xs" c="dimmed">

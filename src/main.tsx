@@ -6,12 +6,7 @@ import { MantineProvider } from '@mantine/core';
 
 createRoot(document.getElementById('root')!).render(
   <MantineProvider
-    theme={{
-      /** Add any other theme overrides here if necessary */
-    }}
-    // forceColorScheme="dark" // Force dark mode without considering local storage or system preference
-    // withGlobalStyles
-    // withNormalizeCSS
+
   >
     <StrictMode>
       <App />
